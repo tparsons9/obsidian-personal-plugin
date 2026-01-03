@@ -59,6 +59,7 @@ npm run build
       helpers.ts
       constants.ts
     types.ts         # TypeScript interfaces and types
+	styles/						 # CSS 
   ```
 - **Do not commit build artifacts**: Never commit `node_modules/`, `main.js`, or other generated files to version control.
 - Keep the plugin small. Avoid large dependencies. Prefer browser-compatible packages.
